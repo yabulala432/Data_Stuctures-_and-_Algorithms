@@ -113,7 +113,6 @@ public class LinkedLists {
         for(int i = 0; i<index-1; i++){
             if(i == index-2){
                 previous = temp;
-                System.out.println("babula");
             }
             temp = temp.next;
         }
